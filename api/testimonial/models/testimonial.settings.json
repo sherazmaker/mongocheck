@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "name": "Testimonial"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Talented Designer",
+      "required": true
+    },
+    "review": {
+      "type": "string",
+      "default": "Imperdiet consequat fermentum purus molestie cubilia mattis erat pretium himenaeos viverra class",
+      "required": true
+    },
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "star": {
+      "type": "integer",
+      "default": 5,
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "name": {
+      "type": "string",
+      "default": "Alen Perk",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "Software Developer",
+      "required": true
+    },
+    "socialLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "link.social"
+    }
+  }
+}
