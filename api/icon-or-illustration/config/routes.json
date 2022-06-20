@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/icon-or-illustrations",
+      "handler": "icon-or-illustration.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/icon-or-illustrations/count",
+      "handler": "icon-or-illustration.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/icon-or-illustrations/:id",
+      "handler": "icon-or-illustration.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/icon-or-illustrations",
+      "handler": "icon-or-illustration.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/icon-or-illustrations/:id",
+      "handler": "icon-or-illustration.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/icon-or-illustrations/:id",
+      "handler": "icon-or-illustration.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

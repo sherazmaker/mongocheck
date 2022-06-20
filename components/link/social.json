@@ -2,24 +2,25 @@
   "collectionName": "components_link_socials",
   "info": {
     "name": "social",
-    "icon": "link"
+    "icon": "link",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Facebook": {
       "type": "string",
-      "default": "https://www,facebook.com",
+      "default": "https://www.facebook.com",
       "required": true
     },
     "Twitter": {
       "type": "string",
-      "default": "https://www,twitter.com",
+      "default": "https://www.twitter.com",
       "required": true
     },
     "Instagram": {
       "type": "string",
       "required": true,
-      "default": "https://www,instagram.com"
+      "default": "https://www.instagram.com"
     }
   }
 }
