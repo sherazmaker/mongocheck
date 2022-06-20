@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "Faq"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true,
+      "default": "justo imperdiet porttitor aliquam viverra ullamcorper blandit, dis hendrerit per ipsum semper sagittis sodales proin."
+    },
+    "answer": {
+      "type": "text",
+      "default": "Facilisis tristique amet interdum metus mi odio dignissim lacinia viverra sapien, class leo dictum rutrum placerat feugiat pretium habitasse accumsan, porttitor luctus erat platea justo sodales ultrices taciti faucibus. Sed sociosqu ad netus ut nunc rhoncus odio vulputate conubia sem, ornare dictum est volutpat aenean habitant sodales sociis metus, pulvinar ullamcorper malesuada class cubilia inceptos nostra ligula pharetra",
+      "required": true
+    }
+  }
+}

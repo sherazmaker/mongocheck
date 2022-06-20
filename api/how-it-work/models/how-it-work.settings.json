@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_it_works",
+  "info": {
+    "name": "How It Work"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "faucibus vehicula nulla",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "default": "dui lorem velit euismod tristique vivamus semper purus in, penatibus cras litora nec gravida ad himenaeos feugiat"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "step": {
+      "type": "string",
+      "required": true,
+      "default": "step "
+    }
+  }
+}
