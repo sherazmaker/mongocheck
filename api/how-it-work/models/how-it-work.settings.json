@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "how_it_works",
   "info": {
-    "name": "How It Work"
+    "name": "How It Work",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,7 +20,7 @@
     "description": {
       "type": "text",
       "required": true,
-      "default": "dui lorem velit euismod tristique vivamus semper purus in, penatibus cras litora nec gravida ad himenaeos feugiat"
+      "default": "dui lorem velit euismod tristique vivamus semper purus"
     },
     "image": {
       "model": "file",
